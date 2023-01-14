@@ -3,8 +3,8 @@
 // string number = Console.ReadLine();
 // int Count=number.Length;
 // Console.WriteLine(Count);
-Console.Write("Введите число");
-int num = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число");
+int num = Convert.ToInt32(Console.ReadLine());
 int c = GetCountNum (num);
 int GetCountNum(int number)
 {
@@ -16,3 +16,4 @@ int GetCountNum(int number)
     }
     return count;
 }
+Console.WriteLine(c);
